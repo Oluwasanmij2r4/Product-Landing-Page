@@ -29,7 +29,6 @@ body{
     min-height: 100vh;
     background-color: #0a0a0a;
     font-family: var(--body-font);
-    margin-bottom: 10rem;
 }
 
 
@@ -69,7 +68,7 @@ body{
     font-weight: 500;
 }
 
- .order__btn, .btn:hover{
+ .order__btn, .btn:hover, .vid__btn:hover{
     background-color: var(--btn-color);
     padding: .75rem;
     border-radius: 50px;
@@ -210,4 +209,68 @@ i{
     line-height: 1.35;
     text-align: center;
  font-style: italic;
+}
+
+.video__section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 1rem 4rem;
+    gap: 2rem;
+}
+
+iframe{
+    border: 1px solid var(--icon-color-2);
+}
+
+.legend{
+    font-family: var(--heading-font);
+     color: rgba(255, 255, 255, 0.9);
+     text-align: center;
+     padding-bottom: 1rem;
+     font-size: calc(1.5rem + 1vw);
+}
+
+form{
+    background-color: var(--container-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    padding: 1rem;
+    border: 2px solid var(--icon-color-2);
+    font-family: var(--body-font);
+    font-weight: 700;
+    color: black;
+}
+
+input::placeholder{
+    font-weight: 500;
+}
+
+button {
+    width: 100px;
+    background-color: var(--btn-color);
+    padding: .75rem;
+    border-radius: 50px;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+
+.order__btn:hover, button:hover{
+    border: 2px solid var(--links-color);
+    border-radius: 50px;
+    padding: .75rem;
+    color: var(--links-color);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.submit__btn{
+    display: flex;
+    justify-content: center;
 }
