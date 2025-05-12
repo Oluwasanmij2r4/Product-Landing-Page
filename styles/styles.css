@@ -25,9 +25,10 @@
 
 body {
   min-height: 100vh;
-  width: 100%;
+  max-width: 100%;
   background-color: #0a0a0a;
   font-family: var(--body-font);
+  padding-bottom: 2rem;
 }
 
 .navbar {
