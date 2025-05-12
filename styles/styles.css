@@ -119,7 +119,7 @@ body {
 .feature__section {
   padding: 1rem 4rem;
   margin: 4rem 0;
-  background-color: var(--icon-color-2);
+  background-color: #292929;
 }
 
 .section_heading {
@@ -138,7 +138,7 @@ body {
 }
 
 i {
-  color: var(--icon-color);
+  color: var(--btn-color);
   font-size: 2rem;
 }
 
@@ -239,16 +239,6 @@ input {
 
 input::placeholder {
   font-weight: 500;
-}
-
-button {
-  width: 100px;
-  background-color: var(--btn-color);
-  padding: 0.75rem;
-  border-radius: 50px;
-  color: black;
-  font-weight: 700;
-  border: none;
 }
 
 .order__btn:hover,
