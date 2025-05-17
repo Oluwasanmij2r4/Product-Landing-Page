@@ -49,11 +49,16 @@ body {
   max-width: 30px;
 }
 
+.nav-link{
+  color: green-500;
+}
+
 .logo a {
   color: var(--primary-color);
   font-family: var(--logo-font);
   font-size: 2rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .links {
@@ -66,10 +71,10 @@ body {
   font-weight: 500;
 }
 
-.btn:hover{
+/* .btn:hover{
   color: var(--btn-color);
   font-size: 1.15rem;
-}
+} */
 
 .order__btn,
 .vid__btn:hover {
@@ -255,4 +260,14 @@ button:hover {
 .submit__btn {
   display: flex;
   justify-content: center;
+}
+
+
+.green-links .nav-link {
+  color: var(--links-color) !important;
+  font-weight: 500 !important;
+}
+
+.green-links .nav-link:hover {
+  color: var(--btn-color) !important;
 }
